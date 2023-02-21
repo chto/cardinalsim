@@ -2,12 +2,7 @@
 .header {
   margin-bottom: 120px;
   background: $black;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 0.3;
-    /*Opacity end*/
+  opacity: 0.3;
 }
 
 .header, .header-box {
@@ -19,7 +14,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  opacity: 0.3;
+  opacity: 1.0;
   .logo-title {
     .logo-text {
       font-size: 20px;
