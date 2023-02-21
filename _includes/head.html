@@ -6,12 +6,30 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="{{ site.baseurl }}/img/arrow.svg" as="image" />
+  <link rel="preload" href="{{ site.baseurl }}/img/banner.svg" as="image" />
+  <title>The Cardinal Simulation</title>
+  <meta name="creator" content="Chun-Hao To">
+  <meta name="description" content="" />
+  <meta name="keywords" content="Cosmology, Cosmology simulation, Mocks, Galaxy surveys" />
+  <meta property="og:url" content="https://chunhaoto.com/cardinalsim/" />
+  <meta property="og:title" content="Cardinal Simulation" />
+  <meta property="og:image" content="{{ site.baseurl }}/img/main.png" />
+  <meta property="og:image:url"  content="{{ site.baseurl }}/img/main.png" />
+  <meta property="og:image:secure_url"  content="{{ site.baseurl }}/img/main.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
   <!-- Ionicons -->
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
 
   <style>
   {% capture include_to_scssify %}
