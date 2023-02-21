@@ -4,7 +4,9 @@
 {% include head.html %}
 
 <body>
-  background-image: url('{{ site.baseurl }}/img/Cardinal.png');
+<style>
+  body {background-image: url('{{ site.baseurl }}/img/Cardinal.png');}
+</style>
   {% if site.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
