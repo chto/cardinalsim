@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="is-preload">
 <style>
   body {
       background-image: url('{{ site.baseurl }}/img/Cardinal.png');
@@ -12,333 +12,212 @@ background-size: cover;
   }
 </style>
 
- <nav id="menu">
-    <h2>SAGA</h2>
-    <ul>
-      <li><a href="#banner" class="scrolly">Stage II</a></li>
-      <li><a href="#first" class="scrolly">Science Tidbits</a></li>
-      <li><a href="#data-sets" class="scrolly">Data Sets</a></li>
-      <li><a href="#members" class="scrolly">Team Members</a></li>
-      <li><a href="#science-goals" class="scrolly">Science Goals</a></li>
-      <li><a href="#stage-i" class="scrolly">Stage I</a></li>
-      <li><a href="#acknowledgements" class="scrolly">Acknowledgements</a></li>
-      <li><a href="#saga-references" class="scrolly">Saga References</a></li>
-    </ul>
-  </nav>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-  <!-- Header -->
-  <a name="home"></a>
-  <section id="header">
-    <nav>
-      <ul>
-        <li><a href="#menu">Menu</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>The SAGA Survey</h1>
-      <p>Exploring Satellites Around Galactic Analogs</p>
-    </header>
-    <footer>
-      <a href="#banner" class="button style2 scrolly-middle">See Stage II Results</a>
-    </footer>
-  </section>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>This is<br />
+						Massively</h1>
+						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-  <!-- Banner -->
-  <a name="stage-ii"></a>
-  <section id="banner">
-    <header>
-      <h2>SAGA Stage II</h2>
-    </header>
-      36 Complete Satellite Systems around Milky Way Analogs<br />
-      127 Spectoscopically Confirmed Satellite Galaxies
-    <footer>
-      <a href="https://arxiv.org/abs/2008.12783">Read the full Stage II paper on arXiv</a><br />
-      <a href="#data-sets" class="scrolly">Download SAGA data sets</a>
-    </footer>
-    <footer>
-      <a href="#first" class="button style2 scrolly">See Result Highlights</a>
-    </footer>
-  </section>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>
 
-  <!-- Feature 1 -->
-  <a name="so-many-satellites"></a>
-  <article id="first" class="container box style1 right">
-    <div class="image"><img src="images/paper2/sats.jpg" alt="Images of 127 SAGA satellites. Figure 8 of Mao et al. (2021)." /></div>
-    <div class="inner">
-      <header>
-        <h2>So Many Satellites</h2>
-      </header>
-      <p>We identify 127 satellites around 36 SAGA hosts. The total number of satellites (M<sub>r</sub> &lt; &minus;12.3) per
-        host ranges from 0 to 9. This number modestly correlates with host galaxy luminosity,
-        and more strongly with the brightest satellite luminosity.</p>
-      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=17">Open in PDF &raquo;</a></footer>
-    </div>
-  </article>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-  <!-- Feature 2 -->
-  <article id="luminosity-functions" class="container box style1 left">
-    <div class="image"><img src="images/paper2/lf.jpg" loading="lazy" alt="Satellite luminosity functions of 36 SAGA systems. Figure 12 of Mao et al. (2021)." /></div>
-    <div class="inner">
-      <header>
-        <h2>Luminosity Functions</h2>
-      </header>
-      <p>For the first time, dozens of complete satellite luminosity functions down to M<sub>r</sub> = &minus;12.3 of
-        Milky Way analogs have been measured. The satellite luminosity function of the Milky Way is consistent with
-        being drawn from the same distribution as the SAGA systems.</p>
-      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=21">Open in PDF &raquo;</a></footer>
-    </div>
-  </article>
+				<!-- Main -->
+					<div id="main">
 
-  <!-- Feature 3 -->
-  <article id="quenched-fraction" class="container box style1 right">
-    <div class="image"><img src="images/paper2/qf.jpg" loading="lazy" alt="Quenched fraction of SAGA satellites as a function of stellar mass. Figure 11 of Mao et al. (2021)." /></div>
-    <div class="inner">
-      <header>
-        <h2>Quenched Fraction</h2>
-      </header>
-      <p>The quenched fraction of SAGA satellites increases with decreasing stellar mass: 2/50 bright satellites are quenched
-        (M<sub>r</sub> &lt; &minus;16, similar to LMC/SMC) while 16/55 faint satellites (&minus;16 &lt; M<sub>r</sub> &lt; &minus;12.3)
-        are quenched; this quenched fraction is lower than that in the Local Group.</p>
-      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=20">Open in PDF &raquo;</a></footer>
-    </div>
-  </article>
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h2><a href="#">And this is a<br />
+									massive headline</a></h2>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Full Story</a></li>
+								</ul>
+							</article>
 
-  <!-- Feature 4 -->
-  <article id="comparison-with-theory" class="container box style1 left">
-    <div class="image"><img src="images/paper2/th.jpg" loading="lazy" alt="Distribution of the number of satellites per host, compared with theoretical predictions. Figure 16 of Mao et al. (2021)." /></div>
-    <div class="inner">
-      <header>
-        <h2>Comparision with Theory</h2>
-      </header>
-      <p>SAGA-measured total satellite number, satellite luminosity functions, and radial distributions are all largely
-        consistent with predictions based on a ΛCDM &plus; galaxy-halo connection model fit to the Milky Way satellite population.</p>
-      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=24">Open in PDF &raquo;</a></footer>
-    </div>
-  </article>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
 
-  <!-- Feature 5 -->
-  <article id="software-tools" class="container box style1 right">
-    <div class="image"><img src="images/paper2/fof.jpg" loading="lazy" alt="Demostration of the friends-of-friends sky catalog matching code. Figure 2 of  Mao et al. (2021)." /></div>
-    <div class="inner">
-      <header>
-        <h2>Software &amp; Tools</h2>
-      </header>
-      <p>We developed a friends-of-friends sky catalog matching code, which is
-        publicly available as a standalone <a href="https://github.com/yymao/FoFCatalogMatching">Python package</a>.
-        An <a href="https://yymao.github.io/decals-image-list-tool">image list web app</a>
-        based on <a href="http://legacysurvey.org/viewer">Legacy Surveys Viewer</a> is also available to facilitate visual target inspection.
-      </p>
-      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=8">Open in PDF &raquo;</a></footer>
-    </div>
-  </article>
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
 
-  <article id="data-sets" class="container box style3">
-    <header>
-      <h2>SAGA Data Sets</h2>
-    </header>
-    <section>
-      <p>
-        Our Stage II data are available as CSV files: <a href="data/saga_stage2_hosts.csv">host table</a>, <a href="data/saga_stage2_sats.csv">satellite table</a>; or as <a href="https://docs.google.com/spreadsheets/d/1PyDx6K9evUKRMgYG-pmeeUgv1npxdr530ovwJWHm5WA/edit">Google Sheets</a>. You can access these data easily with Python and astropy:
-      </p>
-      <p><pre style="font-family: 'Source Code Pro', 'Noto Mono', 'Lucida Console', 'Courier New', Courier, monospace; font-size: 70%; overflow-x: auto;">
-from astropy.table import Table, join
-saga_hosts = Table.read('https://sagasurvey.org/data/saga_stage2_hosts.csv')
-saga_sats = Table.read('https://sagasurvey.org/data/saga_stage2_sats.csv')
-saga_joined = join(saga_sats, saga_hosts, 'INTERNAL_HOSTID', 'left',
-                   uniq_col_name='{table_name}{col_name}',
-                   table_names=['', 'HOST_'])</pre></p>
-    <p>If you are interested in other SAGA data that we have not yet made public, please contact <a href="#members" class="scrolly">SAGA members</a>.
-      If you use SAGA data in your research, please cite <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...847....4G/abstract">Geha et al. (2017, ApJ)</a> and <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200812783M/abstract">Mao et al. (2021, ApJ)</a>, and acknowledge the SAGA Survey:</p>
-      <blockquote>
-        This research made use of data from the SAGA Survey (sagasurvey.org). The SAGA Survey is a spectroscopic survey with data obtained from the Anglo-Australian Telescope, the MMT Observatory, and the Hale Telescope at Palomar Observatory. The SAGA Survey made use of public imaging data from the Sloan Digital Sky Survey (SDSS), the DESI Legacy Imaging Surveys, and the Dark Energy Survey, and also public redshift catalogs from SDSS, GAMA, WiggleZ, 2dF, OzDES, 6dF, 2dFLenS, and LCRS. The SAGA Survey was supported was supported by NSF collaborative grants AST-1517148 and AST-1517422 and by Heising–Simons Foundation grant 2019-1402.
-      </blockquote>
-    </section>
-  </article>
+					</div>
 
-  <!-- Portfolio -->
-  <article id="members" class="container box style2">
-    <header>
-      <h2>SAGA Team Members</h2>
-      <!--<p>Justo phasellus et aenean dignissim<br />
-				placerat cubilia purus lectus.</p>-->
-    </header>
-    <div class="inner gallery">
-      <div class="row gtr-0">
-        <div class="col-3 col-12-mobile"><a href="http://www.astro.yale.edu/mgeha/" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/geha.jpg')"></div>
-            <div class="member-name">Marla Geha<br>(Yale)</div>
-          </div>
-        </a></div>
-        <div class="col-3 col-12-mobile"><a href="https://yymao.github.io/" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/mao.jpg')"></div>
-            <div class="member-name">Yao-Yuan Mao<br>(Rutgers)</div>
-          </div>
-        </a></div>
-        <div class="col-3 col-12-mobile"><a href="https://www.risawechsler.com/" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/wechsler.jpg')"></div>
-            <div class="member-name">Risa Wechsler<br>(Stanford)</div>
-          </div>
-        </a></div>
-      </div>
-      <div class="row gtr-0">
-        <div class="col-3 col-12-mobile"><a href="https://sites.google.com/view/nityajk/home" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/kallivayalil.jpg')"></div>
-            <div class="member-name">Nitya Kallivayalil<br>(UVa)</div>
-          </div>
-        </a></div>
-        <div class="col-3 col-12-mobile"><a href="https://profiles.stanford.edu/ethan-nadler" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/nadler.jpg')"></div>
-            <div class="member-name">Ethan Nadler<br>(Stanford)</div></div>
-          </a></div>
-        <div class="col-3 col-12-mobile"><a href="https://www.stsci.edu/~etollerud/" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/tollerud.jpg')"></div>
-          <div class="member-name">Erik Tollerud<br> (STScI)</div></div>
-        </a></div>
-        <div class="col-3 col-12-mobile"><a href="http://mingus.as.arizona.edu/~bjw/" class="image">
-          <div class="member">
-            <div class="member-photo" style="background-image: url('images/members/weiner.jpg')"></div>
-          <div class="member-name">Benjamin Weiner<br>(Arizona)</div></div>
-        </a></div>
-      </div>
-    </div>
-  </article>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-  <!-- Generic -->
-
-  <article id="science-goals" class="container box style3">
-    <header>
-      <h2>SAGA Science Goals</h2>
-    </header>
-    <section>
-      <header>
-        <h3>Put our Milky Way in Context</h3>
-      </header>
-      <p>
-        Our <a href="https://en.wikipedia.org/wiki/Milky_Way">Milky Way Galaxy</a>
-        is the most well-studied galaxy in the Universe.
-        A particularly informative component of the Milky Way is its system
-        of satellite <a href="https://en.wikipedia.org/wiki/Dwarf_galaxy">dwarf galaxies</a>.
-        To interpret the Milky Way satellite
-        system in a cosmological context, it is critical to study a
-        representative sample of systems analogous to the Milky Way.
-        The SAGA Survey aims to determine dwarf galaxy satellite systems
-        around 100 Milky Way analogs down to the brightness of the
-        <a href="https://en.wikipedia.org/wiki/Leo_I_(dwarf_galaxy)">Leo I</a>
-        galaxy (M<sub>r</sub> &lt; &minus;12.3).
-      </p>
-      <header>
-        <h3>Learn about the Galaxy-Halo Connection</h3>
-      </header>
-      <p>
-        Dwarf galaxies provide a key test of cosmological models on small
-        scales. At present most of our information comes only from the
-        satellite dwarf galaxies around the Milky Way and
-        <a href="https://en.wikipedia.org/wiki/Andromeda_Galaxy">Andromeda</a> galaxies.
-        The SAGA Survey will provide new information about the
-        connection between galaxies and their dark matter halos on the smallest scales.
-      </p>
-    </section>
-  </article>
-
-  <article id="stage-i" class="container box style3">
-    <header>
-      <h2>SAGA Stage I Results</h2>
-    </header>
-    <section>
-      <header>
-        Read <a href="https://arxiv.org/abs/1705.06743">Stage I paper (Geha&plus; 2017)</a> and <a href="https://arxiv.org/abs/2008.12783">Stage II paper (Mao&plus; 2021)</a> on arXiv
-      </header>
-      <p>In SAGA Stage I, we completed spectroscopic coverage within 300 kpc of 8 Milky Way analogs. We discovered 16 satellite galaxies, in addition to 13 satellites already known in the Sloan Digital Sky Survey, for a total of 29 satellites.</p>
-      <header>
-      <h3>SAGA Stage I Data Sets</h3>
-      </header>
-      <p>
-        SAGA Stage I measured spectroscopic redshifts for 17,344 unique objects, including 15,734 galaxies and 1,610 stars. These spectra can be <a href="data/saga_spectra_clean.fits.gz">downloaded as a single FITS file (36.3 MB)</a>.
-        Stage II satellite data are also <a href="#data-sets" class="scrolly">available</a>.</p>
-      <header>
-      <h3>SAGA in Press</h3>
-    </header>
-      <p>
-        <a href="https://news.yale.edu/2017/09/20/milky-way-outlier-galaxy-studying-its-siblings-clues">"Is the Milky Way an ‘outlier’ galaxy? Studying its ‘siblings’ for clues"</a> - Yale News<br>
-        <a href="http://www.syfy.com/syfywire/could-we-be-living-in-a-misfit-galaxy">"Could we be living in a misfit galaxy?"</a> - Syfy<br>
-        <a href="http://earthsky.org/space/milky-way-normal-galaxy-outlier-saga">"Is the Milky Way a normal galaxy?"</a> - EarthSky
-      </p>
-    </section>
-  </article>
-
-  <article id="acknowledgements" class="container box style3">
-    <header>
-      <h2>Acknowledgements</h2>
-    </header>
-    <section>
-      <p>The SAGA Survey (sagasurvey.org) is a spectroscopic survey with data obtained from the Anglo-Australian Telescope, the MMT Observatory, and the Hale Telescope at Palomar Observatory. The SAGA Survey made use of public imaging data from the Sloan Digital Sky Survey (SDSS), the DESI Legacy Imaging Surveys, and the Dark Energy Survey, and also public redshift catalogs from SDSS, GAMA, WiggleZ, 2dF, OzDES, 6dF, 2dFLenS, and LCRS. The SAGA Survey was supported was supported by NSF collaborative grants AST-1517148 and AST-1517422 and by Heising–Simons Foundation grant 2019-1402.</p>
-      <p><i>(If you use SAGA data in your research, please cite <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...847....4G/abstract">Geha et al. (2017, ApJ)</a> and <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200812783M/abstract">Mao et al. (2021, ApJ)</a>, and include the above paragraph in acknowledgement.)</i></p>
-      <hr/>
-      <p>The SAGA team thanks Emily Sandford for suggesting the acronym "SAGA".</p>
-      <p>The background image on this website shows SAGA satellites, whose images are taken from the <a href="http://legacysurvey.org/viewer">Legacy Surveys Viewer</a> and based on data from the <a href="https://www.darkenergysurvey.org/">Dark Energy Survey</a>, <a herf="https://www.legacysurvey.org/">DESI Legacy Imaging Surveys</a>, and <a href="https://www.sdss.org/">Sloan Digital Sky Survey</a>. We thank Dustin Lang for building the Legacy Surveys Viewer.</p>
-    </section>
-  </article>
-
-  <article id="saga-references" class="container box style3">
-    <header>
-      <h2>Saga References</h2>
-    </header>
-    <section>
-      <p>As part of the SAGA Survey, we have nicknamed each Milky Way analog system after a true saga.</p>
-      <div class="row gtr-0">
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Aeneid">Aeneid</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Anna_Karenina">AnaK</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Arya_Stark">Arya</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Beloved_(novel)">Beloved</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Hobbit">Bilbo</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Catch-22">Catch22</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Spirited_Away">Chihiro</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Don_Quixote">DonQuixote</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Fifth_Season_(novel)">Essun</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings">Frodo</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Gauks_saga_Trandilssonar">Gaukur</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Tale_of_Genji">Genji</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Epic_of_Gilgamesh">Gilgamesh</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Harry_Potter">HarryPotter</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon">Hiccup</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude">Macondo</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Metamorphoses">Metamorphoses</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Middlemarch">Middlemarch</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Moana_(2016_film)">Moana</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Hua_Mulan">Mulan</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia">Narnia</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/O_Brother,_Where_Art_Thou%3F">OBrother</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Odyssey">Odyssey</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Things_Fall_Apart">Okonkwo</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Othello">Othello</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Watchmen">Ozymandias</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Life_of_Pi">PiPatel</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Pippi_Longstocking_(novel)">Pippi</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Wheel_of_Time">Rand</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Scooby-Doo">ScoobyDoo</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Star_Wars">Skywalker</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Star_Trek">StarTrek</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Monkey_King">SunWukong</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)">Trisolaris</a></div>
-        <div class="col-3 col-6-mobile center"><a href="https://en.wikipedia.org/wiki/Ynglinga_saga">Ynglinga</a></div>
-      </div>
-    </section>
-  </article>
-
+			</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <!--<script src="assets/js/jquery.poptrox.min.js"></script>-->
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
 
 </body>
 
