@@ -8,9 +8,14 @@
 
     <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
   <link rel="preload" href="{{ site.baseurl }}/img/arrow.svg" as="image" />
   <link rel="preload" href="{{ site.baseurl }}/img/banner.svg" as="image" />
   <title>The Cardinal Simulation</title>
@@ -21,15 +26,10 @@
   <meta property="og:title" content="Cardinal Simulation" />
   <meta property="og:image" content="{{ site.baseurl }}/img/main.png" />
   <meta property="og:image:url"  content="{{ site.baseurl }}/img/main.png" />
+  <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:secure_url"  content="{{ site.baseurl }}/img/main.png" />
+  <meta property="og:image:alt"  content="The Cardinal Website Homepage" />
   <meta property="og:type" content="website" />
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
-  <!-- Ionicons -->
-  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
-
 
   <style>
   {% capture include_to_scssify %}
