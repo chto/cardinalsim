@@ -23,6 +23,9 @@
       text-transform: uppercase;
       letter-spacing: 5px;
       color: $white;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }
