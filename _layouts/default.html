@@ -11,6 +11,11 @@ background-repeat: no-repeat;
 background-size: cover;
   }
 </style>
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  {% include loader.html %}
+  {% include header.html %}
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -218,6 +223,8 @@ background-size: cover;
   <script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+    {% include footer.html %}
+  {% include javascripts.html %}
 
 </body>
 
