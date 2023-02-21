@@ -1,8 +1,8 @@
 // Header
 .header {
   margin-bottom: 120px;
-  background: $black;
-  opacity: 0.2;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1.0;
 }
 
 .header, .header-box {
@@ -22,11 +22,10 @@
       line-height: 20px;
       text-transform: uppercase;
       letter-spacing: 5px;
-      color: $white;
+      color: $text;
       &:hover {
         color: #fff;
       }
-      filter: brightness(110%);
     }
   }
 }
