@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+{% include head.html %}
+
+    <noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/noscript.css" /></noscript>
+
+<body class="is-preload">
+<style>
+      body {
+        background-color: #000;
+        background-image: url('{{ site.baseurl }}/img/Cardinal.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left, center 0;
+        background-attachment: fixed, fixed;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18pt;
+        line-height: 1.6em;
+        font-weight: 300;
+        letter-spacing: 0.4px;
+        color: #3a3939;
+        text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+        -webkit-text-stroke: 0.25px;
+    }
+
+    a, a:active, a:focus{
+        outline: none; /* Works in Firefox, Chrome, IE8 and above */
+    }
+</style>
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  {% include loader.html %}
+  {% include header.html %}
+
+
+
+<body class="is-preload">
+
+<!-- Menu -->
+  <nav id="menu">
+    <h2>Cardinal</h2>
+    <ul>
+      <li><a href="#banner" class="scrolly">Stage II</a></li>
+      <li><a href="#first" class="scrolly">Science Tidbits</a></li>
+      <li><a href="#data-sets" class="scrolly">Data Sets</a></li>
+      <li><a href="#members" class="scrolly">Team Members</a></li>
+      <li><a href="#science-goals" class="scrolly">Science Goals</a></li>
+      <li><a href="#stage-i" class="scrolly">Stage I</a></li>
+      <li><a href="#acknowledgements" class="scrolly">Acknowledgements</a></li>
+      <li><a href="#saga-references" class="scrolly">Saga References</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <a name="home"></a>
+  <section id="header">
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 style="color:white;">The Cardinal Simulation</h1>
+      <div class="image"><img src="{{ site.baseurl }}/img/logov1.png" style="width:128px;height:128px;" ></div>
+    </header>
+    <footer>
+      <a href="#banner" class="button style2 scrolly-middle">See Details</a>
+    </footer>
+  </section>
+
+  <!-- Banner -->
+  <a name="stage-ii"></a>
+  <section id="banner">
+    <header>
+      <h2>SAGA Stage II</h2>
+    </header>
+      36 Complete Satellite Systems around Milky Way Analogs<br />
+      127 Spectoscopically Confirmed Satellite Galaxies
+    <footer>
+      <a href="https://arxiv.org/abs/2008.12783">Read the full Stage II paper on arXiv</a><br />
+      <a href="#data-sets" class="scrolly">Download SAGA data sets</a>
+    </footer>
+    <footer>
+      <a href="#first" class="button style2 scrolly">See Result Highlights</a>
+    </footer>
+  </section>
+
+  <!-- Feature 1 -->
+  <a name="so-many-satellites"></a>
+  <article id="first" class="container box style1 right">
+    <div class="image"><img src="images/paper2/sats.jpg" alt="Images of 127 SAGA satellites. Figure 8 of Mao et al. (2021)." /></div>
+    <div class="inner">
+      <header>
+        <h2>So Many Satellites</h2>
+      </header>
+      <p>We identify 127 satellites around 36 SAGA hosts. The total number of satellites (M<sub>r</sub> &lt; &minus;12.3) per
+        host ranges from 0 to 9. This number modestly correlates with host galaxy luminosity,
+        and more strongly with the brightest satellite luminosity.</p>
+      <footer><a href="https://arxiv.org/pdf/2008.12783.pdf#page=17">Open in PDF &raquo;</a></footer>
+    </div>
+  </article>
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c1bd6adeb9a240f4a47f0b3e35745367"}'></script>
+    {% include footer.html %}
+  {% include javascripts.html %}
+
+</body>
+
+</html>
