@@ -26,6 +26,9 @@ permalink: /Credit/
 ***
 # ACKNOWLEDGEMENTS: 
 
-We thank Wei-Hao Wang for providing M31 image. The Cardinal simulation made use of public data from the Sloan Digital Sky Survey (SDSS) and the Dark Energy Survey (DES). The Cardinal photo was taken by Janet Griffin-Scott and was purchased through iStock. Part of the website desgin is inspired by https://sagasurvey.org/. 
+We thank Wei-Hao Wang for providing M31 image. The Cardinal simulation made use of public data from the Sloan Digital Sky Survey (SDSS) and the Dark Energy Survey (DES). 
+The background image is generated using https://github.com/vargatn/synthetic, a wrapper of galsim (https://github.com/GalSim-developers/GalSim). 
+The Cardinal photo was taken by Janet Griffin-Scott and was purchased through iStock. Part of the website desgin is inspired by https://sagasurvey.org/. 
+
 
 ***
