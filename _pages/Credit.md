@@ -21,7 +21,7 @@ permalink: /Credit/
 {% endhighlight %}
 
 
-[Contact the team](mailto:rwechsler@stanford.edu,joe.derose13@gmail.com,hywu@boisestate.edu,erozo@email.arizona.edu,aelisabeth.krause@gmail.com,susmita.ind@gmail.com,erykoff@slac.stanford.edu,weinberg.21@osu.edu,to.87@osu.edu).
+[Contact the team](mailto:rwechsler@stanford.edu,joe.derose13@gmail.com,hywu@boisestate.edu,erozo@email.arizona.edu,aelisabeth.krause@gmail.com,susmita.ind@gmail.com,erykoff@slac.stanford.edu,weinberg.21@osu.edu,to.87@osu.edu)
 
 ***
 # ACKNOWLEDGEMENTS: 
