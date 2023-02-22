@@ -1,5 +1,7 @@
 ---
 layout: home
 title: Main
-permalink: /about/
+permalink: /
+redirect_from:
+  - /about
 ---

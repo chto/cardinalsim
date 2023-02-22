@@ -159,14 +159,14 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: $gray-blue;
-		text-shadow: 0 0 0.5px $gray-blue;
+		color: $lighten-black;
+		text-shadow: 0 0 0.5px $lighten-black;
 		text-decoration: none;
-		border-bottom: dotted 1px $gray-blue;
+		border-bottom: dotted 1px $lighten-black;
 	}
 
 		a:hover {
-			border-bottom-color: $gray-blue; 
+			border-bottom-color: $lighten-black; 
 //rgba(53, 184, 143, 0);
 		}
 
@@ -2280,7 +2280,7 @@ body.is-menu-visible #menu {
 
 		#banner .button {
 			color: #298F6F;
-			text-shadow: 0 0 0.5px $gray-blue;
+			text-shadow: 0 0 0.5px $lighten-black;
 		}
 
 		#banner header {
@@ -2356,7 +2356,7 @@ body.is-menu-visible #menu {
 
 			body {
 				background-color: #000;
-				background-image: url("{{ site.baseurl }}/img/Cardinal.png");
+				background-image: url("img/Cardinal.png");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
@@ -2832,7 +2832,7 @@ body.is-menu-visible #menu {
     margin-bottom: 15px;
     list-style: decimal inside;
     text-align: left;
-    border-bottom: 2px solid $gray-blue;
+    border-bottom: 2px solid $lighten-black;
     white-space: nowrap;
     .search-link {
       display: inline-block;
@@ -2917,16 +2917,7 @@ body.is-menu-visible #menu {
   }
 }
 
-.page-head{
-    color: $text;
-}
-
-.page-body{
- color: $text;
-}
-
-
-.article {
+.article2 {
   display: flex;
   margin-bottom: 25px;
   &:hover {
@@ -2937,7 +2928,7 @@ body.is-menu-visible #menu {
     }
     .article-image {
       .image-overlay {
-        opacity: .5;
+        opacity: 1;
         width: 100%;
       }
     }
@@ -3024,7 +3015,7 @@ body.is-menu-visible #menu {
     }
     .article-title {
       margin-bottom: 5px;
-      a {
+      {
         font-size: 24px;
         color: $text;
       }
