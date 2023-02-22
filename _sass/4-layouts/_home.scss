@@ -2269,25 +2269,30 @@ body.is-menu-visible #menu {
 
 	#banner {
 		position: relative;
-		color: #fff;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #298F6F url("img/banner.svg") center center no-repeat;
+		background: url("img/pic01.jpg") center center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
+        opacity: 0.8;
+        color:$white;
 	}
 
 		#banner .button {
-			color: #298F6F;
+            opacity: 1.0;
+			color: $black;
 			text-shadow: 0 0 0.5px $gray-blue;
 		}
 
 		#banner header {
+                color: $white;
 			margin: 0 0 2em 0;
+            opacity: 1.0;
 		}
 
 			#banner header h2 {
+            opacity: 1.0;
+                color: $white;
 				font-weight: 400;
 				font-size: 1.75em;
 				letter-spacing: 8px;
@@ -2295,6 +2300,7 @@ body.is-menu-visible #menu {
 
 		#banner p {
 			margin: 0;
+            opacity: 1.0;
 		}
 
 		#banner footer {
