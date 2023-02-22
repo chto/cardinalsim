@@ -83,9 +83,9 @@ input, select, textarea {
 
 	body {
 		background-color: #000;
-		background-image: url("{{ site.baseurl }}/img/Cardinal.png");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-image: url("https://chunhaoto.com/cardinalsim/img/Cardinal.png");
+		background-repeat: no-repeat, no-repeat;
+		background-size: cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -2362,9 +2362,9 @@ body.is-menu-visible #menu {
 
 			body {
 				background-color: #000;
-				background-image: url("{{ site.baseurl }}/img/Cardinal.png");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
+				background-image: url("https://chunhaoto.com/cardinalsim/img/Cardinal.png");
+				background-repeat: no-repeat;
+				background-size: cover;
 				background-position: top left, top center;
 				background-attachment: scroll, scroll;
 				font-size: 14pt;
@@ -3124,4 +3124,9 @@ body.is-menu-visible #menu {
 }
 
 
-
+::selection {
+  /* Change highlight background color to black */
+  background: #4e3233;
+  /* Change highlight text color to red */
+  color: $white;
+}
