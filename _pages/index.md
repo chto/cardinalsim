@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Main
+title: 
 permalink: /
 redirect_from:
   - /about
