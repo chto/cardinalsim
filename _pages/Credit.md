@@ -8,7 +8,7 @@ permalink: /Credit/
 
 {% highlight markdown %}
 
-* Chun-Hao To ([webpage](chunhaoto@gmail.com)), CCAPP Fellow at OSU, to dot 87 at osu dot edu
+* Chun-Hao To [webpage](chunhaoto.com), CCAPP Fellow at OSU, to dot 87 at osu dot edu
 * Joe DeRose, LBNL, jderose at lbl dot gov 
 * Risa Wechsler, Stanford, rwechsler at stanford dot edu
 * Eli Rykoff, SLAC, erykoff at slac dot stanford dot edu 
