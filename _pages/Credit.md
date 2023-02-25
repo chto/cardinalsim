@@ -8,14 +8,14 @@ permalink: /Credit/
 
 {% highlight markdown %}
 
-* Chun-Hao To, OSU, to dot 87 at osu dot edu
+* [Chun-Hao To](chunhaoto@gmail.com), CCAPP Fellow at OSU, to dot 87 at osu dot edu
 * Joe DeRose, LBNL, jderose at lbl dot gov 
 * Risa Wechsler, Stanford, rwechsler at stanford dot edu
 * Eli Rykoff, SLAC, erykoff at slac dot stanford dot edu 
 * Hao-Yi Wu, Boise State University, hywu at boisestate dot edu
 * Susmita Adhikari, Indian Institute of Science Education and Reseaarch Pune 
 * Elisabeth Krause, University of Arizona
-* Edurado Rozo, University of Arizona
+* Eduardo Rozo, University of Arizona
 * David Weinberg, OSU 
 
 {% endhighlight %}
