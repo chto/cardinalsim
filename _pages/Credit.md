@@ -1,6 +1,6 @@
 ---
 layout: page
-title: People
+title: People & Credits
 permalink: /People/
 ---
 # Cardinal Teams: 
