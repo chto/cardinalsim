@@ -5,7 +5,7 @@ permalink: /Predecessor/
 ---
 
 # The Buzzard flock simulation 
-The direct predecessor of the Cardinal simulation is [the Buzzard simulation](https://buzzardflock.github.io/){:target="_blank"}{:rel="noopener noreferrer"}.
+The direct predecessor of the Cardinal simulation is [the Buzzard simulation](https://buzzardflock.github.io).
 Buzzard mocks are released at [this webpage](https://datalab.noirlab.edu/buzzard.php).
 
 # AddGALS
