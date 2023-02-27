@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Download Mocks
-permalink: /Download/
+title: Data
+permalink: /Data/
 ---
 
 # Public release
