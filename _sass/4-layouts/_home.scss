@@ -3075,3 +3075,21 @@ body.is-menu-visible #menu {
 #top-menu li li a {
    width: 240px; /* Make this 40 less then the width of the dropdown menu */
 }
+
+#upsko {
+    position: relative;
+    top: 0px; right: 2px; width: 60px; height: 60px;
+}
+
+#utas {
+    position: relative;
+    top: 0px; left: 0px; right: 0px; bottom: 2000px;
+}
+#utas img { height: 100%; width: 100%; }
+
+#ipsko {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
