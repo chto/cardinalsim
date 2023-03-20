@@ -5,7 +5,7 @@ permalink: /Data/
 ---
 
 # Public release
-Under construction.
+Data will be available upon publication.
 
 ### Collaborators 
 * Dark Energy Survey: The v1 Cardinal simulation is [here](https://cdcvs.fnal.gov/redmine/projects/simulation/wiki/Y6Cardinal).

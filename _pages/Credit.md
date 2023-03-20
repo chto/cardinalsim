@@ -3,7 +3,7 @@ layout: page
 title: People & Credits
 permalink: /People/
 ---
-# Cardinal Teams: 
+# Cardinal Team: 
 
 * Chun-Hao To (<a href="https://chunhaoto.com">webpage</a>), CCAPP Fellow at the Ohio State University, to dot 87 at osu dot edu
 * Joe DeRose, LBNL, jderose at lbl dot gov 
@@ -20,7 +20,7 @@ permalink: /People/
 [Contact the team](mailto:rwechsler@stanford.edu,joe.derose13@gmail.com,hywu@boisestate.edu,erozo@email.arizona.edu,aelisabeth.krause@gmail.com,susmita.ind@gmail.com,erykoff@slac.stanford.edu,weinberg.21@osu.edu,to.87@osu.edu)
 
 # Special Acknowledgements: 
-Cardinal is built on important work by Michael Busha, Matthew Becker, and Gus Evrard. 
+Cardinal is built on earlier work published in DeRose et al 2019 [<a href="https://arxiv.org/abs/1901.02401">link</a>] and Wechsler et al 2022 [<a href="https://arxiv.org/abs/2105.12105">link</a>], including significant contributions from Michael Busha, Matthew Becker, and Gus Evrard.
 
 
 ***
